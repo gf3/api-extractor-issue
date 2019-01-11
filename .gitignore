@@ -1,0 +1,10 @@
+umd
+*.js
+*.js.map
+*.d.ts
+
+/node_modules/
+/actions/
+/client/
+/umd/
+/util/

@@ -1,0 +1,33 @@
+{
+  "name": "api-extractor-issue",
+  "version": "1.0.0",
+  "types": "index.d.ts",
+  "main": "index.js",
+  "files": [
+    "MessageTransport.d.ts",
+    "MessageTransport.js",
+    "MessageTransport.js.map",
+    "actions/",
+    "client/",
+    "index.d.ts",
+    "index.js",
+    "index.js.map",
+    "util/"
+  ],
+  "private": true,
+  "repository": "git@github.com:gf3/api-extractor-issue.git",
+  "author": "Gianni Chiappetta <gianni@runlevel6.org>",
+  "license": "MIT",
+  "scripts": {
+    "api": "api-extractor run",
+    "docs": "api-documenter markdown",
+    "build": "NODE_ENV=production tsc"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@microsoft/api-documenter": "^7.0.13",
+    "@microsoft/api-extractor": "^7.0.9",
+    "@types/node": "^10.12.5",
+    "typescript": "3.2.1"
+  }
+}
